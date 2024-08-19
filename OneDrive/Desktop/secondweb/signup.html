@@ -5,29 +5,47 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="signup.html" method="post">
-        <div class="imgcontainer">
-          <img src="po.jpeg" alt="Avatar" class="avatar">
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">Ke Stance</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="design.html">DESIGN</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="Type To Text">
+                <a href="#"> <button class="btn">Search</button></a>
+            </div>
         </div>
-      
-        <div class="container">
-          <label for="uname"><b>Username</b></label>
-          <input type="text" placeholder="Enter Username" name="uname" required>
-      
-          <label for="psw"><b>Password</b></label>
-          <input type="password" placeholder="Enter Password" name="psw" required>
-      
-          <button type="submit">Login</button>
-          <label>
-            <input type="checkbox" checked="checked" name="remember"> Remember me
-          </label>
-          <button class="btnn"><a href="#">Login</a></button>
-        </div>
-      
-        <div class="container" style="background-color:#f1f1f1">
-          <button type="button" class="cancelbtn">Cancel</button>
-          <span class="psw">Forgot <a href="#">password?</a></span>
-        </div>
+    
+    
+    <div class="signup-box">
+      <h1>Sign Up</h1>
+      <h4>You Can Sign Up For Free</h4>
+      <form>
+          <label> First Name</label>
+          <input type="text" placeholder="">
+          <label> Last Name</label>
+          <input type="text" placeholder="">
+          <label> Email</label>
+          <input type="email" placeholder="">
+          <label> Password</label>
+          <input type="password" placeholder="">
+          <label> Confirm Password</label>
+          <input type="password" placeholder="">
+          <input type="button" value="Submit">
       </form>
+      <p>By clicking the Sign Up button, you agree to our <br> <a href="#">Terms and Conditions</a> and <a href="#">Policy Privacy</a></p>
+    </div>
+    <p class="para-2">Already have an account <a href="signup.html">Login here</a></p>
 </body>
 </html>

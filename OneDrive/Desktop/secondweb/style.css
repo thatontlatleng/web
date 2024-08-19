@@ -508,6 +508,7 @@ ul li a:hover{
     padding-top: 20%;
     padding-right: 20%;
     font-family: sans-serif;
+    color: white;
 }
 
 .about .parr{
@@ -526,4 +527,77 @@ ul li a:hover{
     padding-left: 20%;
     padding-top: 25%;
     padding-right: 10%;
+    color: #fff;
+}
+
+.sign-up body{
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(po.jpeg);
+    background-position: center;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.signup-box{
+    width: 360px;
+    height: 600px;
+    margin: auto;
+    background-color: lightgray;
+    border-radius: 3px;
+
+}
+
+.sign-up h1{
+    text-align: center;
+    padding-top: 15px;
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+}
+
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid black;
+    border-radius: 6px;
+    outline: none;
+}
+
+input[type="button"]{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #ff7200;
+    color: white;
+    font-size: 18px;
+}
+
+.sign-up p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+.para-2{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: -10px;
+}
+
+.para-2{
+    color: #ff7200;
 }
